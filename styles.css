@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+body {
+  background-color: white;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: Pacifico, Helvetica;
+  text-align: center;
+}
+
+h2 {
+  font-family: Source Code Pro, Helvetica;
+  color: black;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.gray-box {
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10% 10% 10% 10%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.black-box {
+  background-color: black;
+  border-radius: 10px;
+  height: auto; 
+}
+
+.black-border {
+  border-color: black;
+  border-width: 2vw;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 95%;
+  width: 100%;
+  height: auto;
+  margin-top: 8%;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+p#main {
+  margin-top: 44px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+#tribute-info {
+  margin-top: 5%;
+  line-height: 1.3;
+}
+
+p#timelinetitle {
+  margin-bottom: 40px;
+  margin-top: 45px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ul#timeline {
+margin-bottom: 50px;
+}
+
+blockquote#quote {
+  margin-bottom: 50px;
+}
+
+p#footer {
+  font-size: 8pt;
+  margin-top: 51px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #c0c0c0;
+}
+
+  h1{
+    padding: 8px;
+  }
+
+  .gray-box {
+    margin: 0;
+    padding: 0px;
+  }
+ 
+  img {
+  max-width: 95%;
+  height: auto;
+  margin-top: 8%;
+  }
+
+  .text-margins {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  ul {
+    margin-left: -10px;
+  }
+  
+  blockquote#quote {
+    margin: 5%;
+    font-size: 98%;
+  }
+}
