@@ -49,6 +49,8 @@ img {
   width: 100%;
   height: auto;
   margin-top: 8%;
+  /*cuts off white line on certain browsers*/
+  background-color: black;
 }
 
 #img-caption {
@@ -117,7 +119,7 @@ p#footer {
   ul {
     margin-left: -10px;
   }
-  
+
   blockquote#quote {
     margin: 5%;
     font-size: 98%;
